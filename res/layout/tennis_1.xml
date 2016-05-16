@@ -1,0 +1,124 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s19" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1890dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/tennis_1" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:text="· 테니스"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:text="테니스는 두 명의 선수(단식) 또는 각각 두 명의 선수로 이루어진 두 팀(복식)이 겨루는 라켓 스포츠의 한 종류입니다. 선수들이 줄이 매어진 라켓을 이용해 속이 비고 표면이 펠트 이루어진 고무 재질의 테니스" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView1"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginTop="15dp"
+            android:text="공을 쳐서 네트 너머 상대방의 코트로 계속하여 넘겨서, 어느 한 쪽이 공이 두 번 바운드 되기 전에 치지 못 하거나 친 공이 네트를 넘지 못 했을 때, 혹은 친 공이 상대방 코트에 들어가지 못 했을 때 그 실패한 선수의 상대방이 점수를 따는 방식으로 진행됩니다. 경기의 종류는 선수 구성에 따라 단식과 복식, 혼합복식으로 나뉩니다. 과거에는 연식 정구와 함께 정구(庭球)라고 불리기도 했습니다." />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 세부종목 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="5dp"
+            android:text="- 단식 : 남자, 여자\n- 복식 : 남자, 여자, 혼합" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기방식 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="5dp"
+            android:text="- 대회는 토너먼트 방식으로 운영\n- 매 경기는 3세트로 하며, 마지막 3세트를 제외한 1․2 세트의 연장전은 Tie-break System으로 한다. (7점을 먼저 올린 선수가 이기는 게임)\n\n&lt; 게임스코어>\n ▶ 스탠다드 게임 (Standard Game)\n- 스탠다드 게임의 스코어는 다음과 같으며 서버(server)의 스코어를 먼저 부른다:\n   0 - “러브 (love)”\n   첫 포인트 - “15”\n   둘째 포인트 - “30”\n   셋째 포인트 - “40”\n   넷째 포인트 - “게임”\n양쪽 선수/팀이 다같이 세 포인트를 이기면 “듀스(deuce)”가 된다.\n 듀스가 되면 다음 포인트를 이기는 선수/팀에게 “어드밴티지(advantage)” 스코어가 주어진다.\n 그 선수/팀이 그 다음 포인트도 이기면 그 선수/팀이 그 게임을 이기게 되고, 만약 상대편 선수/팀이 그 포인트를 이기면 스코어는 다시 “듀스”가 된다.\n듀스 후에 게임을 이기기 위해서는 두 포인트를 연속해서 이겨야 한다.\n\n ▶ 타이브레이크 게임 (Tie Break Game)\n- 타이브레이크 게임에서는 “0(지로(zero))”, “1”, “2”, “3”, 등으로 스코어를 한다. 상대에 두 포인트 이상의 점수 차이로 먼저 일곱 포인트를 이기는 선수/팀이 그 게임과 세트를 이기게 된다. 필요하다면 타이브레이크 게임은 두 포인트 차이가 될 때까지 듀스를 계속한다. 타이브레이크 게임 첫 포인트의 서브는 차례가 된 선수가 넣는다. 그 다음의 두 포인트는 상대선수가 넣는다 (복식에서는 다음 서브를 넣을 차례가 된 선수). 이 후에는 각 선수/팀이 타이브레이크 게임이 끝날 때까지 두 포인트씩 번갈아 순서대로 서브를 넣어야 한다.\n타이브레이크 게임에서 첫 번째 서브를 한 선수/팀이 그 다음 세트의 첫 번째 게임에서는 리시버(receiver)가 된다.\n\n&lt; 세트 스코어 >\n세트 스코어링 방법은 둘인데, “어드밴티지 세트 (Advantage Set)”와 “타이브레이크 세트 (Tie Break Set)가 있으며, 유니버시아드는 타이브레이크 세트를 적용하지만, 파이널 세트 (Final Set)는 제외한다. 즉, “어드밴티지 세트”로 한다.\n ▶ “어드밴티지 세트”\n- 게임 (6 games)을 먼저 이기는 선수/팀이 그 세트를 이기게 된다, 다만 상대방에 대해 두 게임의 차이가 있어야 한다. 필요 시 세트는 두 게임의 차이가 날 때까지 계속해야 한다.\n ▶ “타이브레이크 세트”\n- 게임을 먼저 이기는 선수/팀이 그 세트를 이기게 된다, 다만 상대방에 대해 두 게임의 차이가 있어야 한다. 6 게임스 올이 되면 타이브레이크 게임을 해야 한다.\n- 3위 결정전이 없으며 준결승전에서 패한 두 선수(팀)는 공동 3위로 동메달 수여" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기유래 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView8"
+            android:layout_below="@+id/textView8"
+            android:layout_marginTop="5dp"
+            android:text="- 12세기부터 16세기까지 프랑스에서 유행하던 &apos;라뽐므(La Paum)&apos;라는 경기에서 유래된 이 경기는 당시 귀족과 사원의 수도사들에 의해 행해지던 볼 게임으로 손바닥으로 공을 치고 받는 형태의 스포츠였다고 합니다. 13세기 경 프랑스 귀족과 성직자들 사이에서 &apos;쥬드폼므&apos;라는 손바닥 게임으로 발전하게 되었는데, 쥬드폼므는 털이나 천을 채워 둥글게 만든 공을 맨손이나 장갑을 끼고 손바닥으로 때리던 경기로써, 코트의 중앙에 만든 경계 벽을 넘어서 반대쪽 3방향의 벽 어디에든지 손바닥으로 공을 쳐 넣으면 상대방은 이 공을 직접 또는 한 번 바운드 된 공을 손바닥으로 다시 쳐서 넘기는 경기입니다." />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기장정보 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView10"
+            android:layout_below="@+id/textView10"
+            android:layout_marginTop="5dp"
+            android:text="경기장\n- 염주실내테니스장\n- 신축테니스장\n\n훈련장\n- 신축테니스장" />
+    </RelativeLayout>
+
+</ScrollView>

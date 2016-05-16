@@ -1,0 +1,124 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s19" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="2910dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/athlete_1" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:text="· 육상"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:text="육상경기는 인간이 취할 수 있는 가장 기본적인 동작들인 달리기, 뛰기, 던지기 등을 활용해서 만든 스포츠 경기입니다. 육상경기의 원형이 되는 달리기, 뛰기 던지기 등은 인류가 생겨\n나는동시에 생겼다고 할 수" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView1"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginTop="15dp"
+            android:text="있습니다. 즉 이는 인류의 생존 수단이었으며 이것들이 점점 스포츠화 되어 새로운 종목과 그 규칙들을 만들어냈을 것이라고 추정되고 있습니다." />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 세부종목 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="5dp"
+            android:text="남자 25종목\n- 트랙(12) : 100m, 200m, 400m, 800m, 1500m, 5000m, 10000m, 110mH, 400mH, 4×100m, 4×400m, 3000m장애물\n- 도약(4) : 높이, 멀리, 세단, 장대높이뛰기\n- 던지기(4) : 원반, 창, 포환, 해머\n- 도로경주(4) : 20km경보 개인 및 단체, 하프마라톤 개인 및 단체\n- 혼합경기(1) : 10종경기\n\n여자 25종목\n- 트랙(12) : 100m, 200m, 400m, 800m, 1500m, 5000m, 10000m, 100mH, 400mH, 4×100m, 4×400m, 3000m장애물\n- 점프(4) : 높이, 멀리, 세단, 장대높이뛰기\n- 던지기(4) : 원반, 창, 포환, 해머\n- 도로경주(4) : 20km경보 개인 및 단체, 하프마라톤 개인 및 단체\n- 혼합경기(1) : 7종경기&quot;" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기방식 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="5dp"
+            android:text="&lt; 단거리 >\n- 100m, 200m, 400m를 단거리 종목이라 부릅니다.\n\n&lt; 중거리 경기 >\n- 800m와 1500m를 중거리 종목이라 부르며, 800m는 400m 트랙을 2바퀴 돌고, 1500m는 3바퀴 3/4을 돕니다.\n\n&lt; 장거리 경기 >\n- 5,000m는 예선을 통해 올라온 12명의 선수가 결승에서 시합을 하며 트랙을 12½바퀴 돌게 됩니다. 10,000m에서는 20명 이하의 주자가 트랙을 25바퀴 돕니다.\n\n&lt; 허들 경기 >\n- 100m(여자)와 110m(남자), 400m 허들경기 공통으로 세퍼레이트 코스를 달리며 각 레인에는 10대의 허들이 설치됩니다. 경기도중 발 또는 다리가 허들을 넘는 순간에 허들 상단의 수평면보다 낮게 통과하면 실격되며, 허들에 접촉하거나 넘어뜨려도 페널티 는 없습니다. 그러나 스피드가 줄어서 불리하게 됩니다.\n\n&lt; 장애물 경기 >\n- 3000m 장애물경주는 28개의 허들과 7개의 물웅덩이를 뛰어 넘어야 하고, 한 바퀴 마다 5개의 허들이 있어야 하며, 이중 4번째는 물웅덩 입니다.\n\n&lt; 릴레이 경기 >\n- 4명×100m, 4×400m 릴레이가 있습니다. 릴레이경기에서 가장 중요한 것은 배턴 주고받기 입니다. 각 팀은 4명씩 이어 달리게 되는데 테이크 오버 존이라는 일정한 지역 내에서 배턴을 주고받아야 합니다. 스타트라인에서 각 약100m, 200m, 300m 떨어진 지점에서 각 주자가 이어 출발을 하게 되며, 그 지점 전후로 10m씩 총 20m 구간이 테이크 오버 존이 됩니다.\n\n&lt; 높이뛰기 >\n- 2개의 지주를 4m(오차 허용 범위 4cm) 간격으로 운동장에 수직으로 세우고, 거기에 걸친 바(bar)를 도움닫기 달리기로 달려와서 뛰어넘는 경기이며, 바에 닿지 않게 뛴 높이를 겨룬다.\n\n&lt; 장대높이뛰기 >\n- 크로스바는 살짝만 건드려도 떨어지도록 2개의 지지대 위에 올려 놓으며, 크로스바의 높이는 점진적으로 올라갑니다. 동기록자가 나오게 되면 마지막 성공 높이에서 무효시기를 적게 한 횟수, 그래도 동기록일 경우 전체경기에서 무효시기를 적게 한 횟수 등을 따져 순위를 결정 하게 됩니다.\n\n&lt; 멀리뛰기 >\n- 도움닫기 중이거나 도약 동작 중에 공중회전과 같은 동작을 행한 경우 무효시기로 처리됩니다. 계측거리가 1cm미만일 경우에는 계측거리보다 아래쪽에 가장 가까운 0.01m(1cm)단위로 기록해야 합니다.\n\n&lt; 세단뛰기 >\n- 홉, 스텝, 점프의 순으로 이루어지며, 홉은 선수가 발 구름한 발과 같은 발로 최초 착지를 하여야 하고, 스탭은 반대 발로 착지하고, 이어서 점프를 행합니다.\n\n&lt; 원반던지기 >\n- 원반을 한손에 쥐고 지름 2.5m의 서클 안에서 턴한 다음 원심력을 이용해서 던집니다. 좌우 어느 쪽으로 턴하여 던져도 무방하나 서클의 중심 에서 34.92°각도의 부채꼴로 그어진 두선의 안쪽에 원반이 떨어져야 하며 그 바깥쪽에 떨어지면 무효시기 입니다.\n\n&lt;  창던지기 >\n- 창을 던졌을 때 원심으로부터 34.92°의 각도 선 안쪽 지면에 창끝이 먼저 닿으면 됩니다. 1회의 시기는 1분을 넘을 수 없으며 창이 착지하기 전에 선수가 도움닫기 구간을 벗어나면 무효시기가 됩니다.\n\n&lt; 해머던지기 >\n- 선수는 투척 서클 안에서 해머를 던져야 하며 던진 거리는 서클둘레 안쪽부터 해머가 떨어진 자리 안쪽까지를 직선상으로 계측 합니다. 해머가 원심으로부터 34.92°의 각도 선 바깥쪽에 떨어지면 무효 시기가 됩니다.\n\n&lt; 포환던지기 >\n- 지름 2.135m의 콘크리트 재질로 만든 투척서클의 범위를 벗어 나면 안됩니다. 선수는 포환을 어깨로부터 한쪽 팔을 뻗듯이 밀어내야 합니다.\n\n&lt; 혼성경기 >\n- 남성 10종(Decathlon) 및 여성 7종(Heptathlon) 경기로 구성되며 개별종목의 경기순서는 각각의 개별종목에서 비슷한 기록을 가진 선수들이 같은 조 또는 그룹에 편성되도록 합니다.\n\n&lt; (20km)경보 >\n- 어느 한쪽의 발이 항상 지면에서 떨어지지 않게 하면서 전진을 겨루는 경기로서, 발이 지면에서 떨어지는 것이 눈에 보이지 않아야 합니다. \n\n&lt; (하프)마라톤 >\n- 인간의 체력한계라고 여겨지는 42.195Km(26마일 385야드)의 거리를 달리는 도로 경주 입니다. 유니버시아드대회에서는 21.0975Km를 달리게 됩니다." />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기유래 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView8"
+            android:layout_below="@+id/textView8"
+            android:layout_marginTop="5dp"
+            android:text="- 고대 그리스의 경기는 신전앞에서 행하는 의식 형태로 이루어졌으며, 그중 기원전 776년에 올림피아 지방에서 발전했던 올림피아스(Olympias)」라는 경기가 가장 잘 알려져 있는데, 이미 여기에는 직선 단거리 경주의 일종인 「스타디엄주」, 장거리 경기인 「도리코스주」, 「고대 오종경기」 및 「원반던지기」 등이 포함됩니다. 근대 경기는 7세기에 이르러 육상경기는 대부분 상금을 걸고 진행되었으며, 상금을 타기 위한 수단으로 각지의 우수 선수들을 고용하려 애쓰는 귀족들에 의해 규모면에서 커다란 발전을 보이니다." />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기장정보 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView10"
+            android:layout_below="@+id/textView10"
+            android:layout_marginTop="5dp"
+            android:text="경기장\n- 월드컵경기장\n\n훈련장\n- 월드컵보조경기장\n- 신축육상 훈련장\n- 광주체고투척장" />
+    </RelativeLayout>
+
+</ScrollView>

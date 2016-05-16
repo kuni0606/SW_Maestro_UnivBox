@@ -1,0 +1,124 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s19" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1074dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/handball_1" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:text="· 핸드볼"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:text="핸드볼은 두 팀이 드리블 또는 패스로 상대편의 골에 공을 넣어 겨루는 구기 경기 종목 입니다. 한때 일본어식 조어인 송구라는 용어가 쓰이기도 했지만, 지금은 거의 쓰이지 않는 단어가 되었\n습니다." />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView1"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginTop="15dp"
+            android:text="중국이나 대만에서는 수구라 불리기도 합니다. 처음에는 11인제와 7인제, 두 방식으로 시작되었\n으나 현재는 골키퍼를 포함하여 팀당 7명의 선수가 참여하는 7인제 경기만 이루어지고 있습니다. 덴마크나 노르웨이 등 북유럽 국가에서 인기가 좋은 종목입니다." />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 세부종목 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="5dp"
+            android:text="- 남, 여 2종목 진행" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기방식 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="5dp"
+            android:text="- 한 팀 7명의 선수가 볼을 손으로 잡아 서로에게 패스하면서 상대방 골대에 골을 넣는 경기로서 경기에 뛰는 선수는 자유롭게 교체할 수 있음\n- 경기시간은 전, 후반 각각 30분이며 중간에 10분간 휴식\n- 승부는 슛한 볼이 상대방 골에 들어가면 1점을 얻음. 경기 시간은 전 후반 각 30 분 (일반 남·여)이지만, 이 동안에 많은 득점을 올린 팀이 승자가 됨\n- 양 팀 동점일 경우는 5 분간의 휴식 다음 전 후반 각 5분간의 연장전을 함\n- 재차 동점일 경우는 다시 전 후반 5 분의 제 2 연장전으로 승패를 결정\n- 승부가 나지 않을 경우 7m 던지기로 결정" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기유래 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView8"
+            android:layout_below="@+id/textView8"
+            android:layout_marginTop="5dp"
+            android:text="- 핸드볼의 기원은 그리스의 하르파스탄, 로마의 하르파스톰에서 시작되었으며, 그 당시의 게임은 공을 서로 빼앗아서 소정의 위치에 던져넣는 체력 본위의 것입니다. 현재와 같은 양식을 갖춘 것은 1915년 독일에서 여성경기로 등장한 것이었으며,그 후 오스트리아, 스위스, 미국, 체코슬로바키아, 벨기에, 덴마크, 스웨덴 등 여러 나라에 보급되어 점차 남자들 사이에서도 하게 되었습니다." />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기장정보 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView10"
+            android:layout_below="@+id/textView10"
+            android:layout_marginTop="5dp"
+            android:text="경기장\n- 나주다목적체육관(결승)\n- 나주실내체육관\n- 전남대학교체육관\n- 구례실내체육관\n- 목포실내체육관\n\n훈련장\n- 동림다목적체육관\n- 전남대체육관\n-  조대여고체육관\n- 함평 농어민 문화체육센터" />
+    </RelativeLayout>
+
+</ScrollView>

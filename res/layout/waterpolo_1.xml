@@ -1,0 +1,124 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s19" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1234dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/waterpolo_1" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:text="· 수구"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:text="수구는 수중에서 공을 갖고 행해지는 구기 종목입니다. 골키퍼를 포함해 일곱 명으로 구성된 두 팀이 수영장 내에 만들어진 경기장에서 서로의 골에 공을 넣어 더 많은 득점을 기록한 팀이 승리하게 되는" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView1"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginTop="15dp"
+            android:text="것으로, 경기 방식이 핸드볼과 유사합니다. 몸의 대부분이 수중에 있어야 하기 때문에 반칙은 행하기 어렵고, 잡고 차는 행위가 일상적으로 발생해 ‘수중의 격투기’라고도 부릅니다." />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 세부종목 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="5dp"
+            android:text="- 남, 여 2종목 진행" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기방식 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="5dp"
+            android:text=" ▶경기진행\n- 수구경기는 FINA규정에 따라 실시\n- 수구경기는 13명(정 7, 후보 6)으로 구성\n- 수구경기는 수영종목에서 유일한 구기종목이며 선수식별과 부상방지를 위한 귀마개가 부착된 수구모자를 필히 착용해서 경기를 실시(백색, 청색으로 구분)\n- 수구공의 무게는 400ｇ이상 450ｇ이하여야 함\n- 수구공의 둘레는 0.68ｍ～0.71ｍ임\n- 경기는 8분씩(실제경기시간) 4피리어드로 진행되며 피리어드마다 2분간 휴식,  2~3피어리드 사이는 5분간 휴식\n- 세 번째 피리어드가 시작되기 전에 벤치를 바꿈\n- 연장전시에는 각 3분씩 2회 경기 진행\n※ 심판은 2명(경기진행), 부심 2명(골라인 연장상에서 수신호로 토너드로우 득점을 알림), 타이머 2명(실경기시간, 휴식시간과 각 팀이 볼을 계속 가지고 있는 시간을 잼), 기록원 2명(경기자의 퇴수시간을 관리하고 메이저 파울수를 기록)\n\n ▶경기방식\n- 가장 최근의 국제 수영 연맹의 수구 규정에 따라 16개 팀을 4개 그룹(A, B, C, D)로 나누고 각 그룹 당 4개 팀이 경기를 가짐\n- 각 그룹별로 라운드 로빈 방식에 의거 경기를 진행(출전 팀 상황에 따라 조정될 수 있다.)\n- 경기는 예선전, 순위결정전 그리고 결승전 등 세 단계로 구분" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기유래 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView8"
+            android:layout_below="@+id/textView8"
+            android:layout_marginTop="5dp"
+            android:text="- 수구경기는 물 속에서 구기운동을 실시하는 유일한 스포츠로서 축구와 마찬가지로 영국에서 시작되었습니다. 1869년 경영의 단조로움을 탈피하기 위하여 수구경기가 고안되었으며, 1870년말 수구경기규칙구성위원회를 구성하였습니다.  그 후 1876년 반마스로윙 클럽에서 경기장에 규격을 일정하게 정하여 최초의 수구 경기를 개최하였으며, 경기는 시합구역에 마크를 부치고 심판 1인과 골 심판 2인이 경기진행을 담당하였으며 한 팀의 인원을 7명으로 구성하였습니다." />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기장정보 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView10"
+            android:layout_below="@+id/textView10"
+            android:layout_marginTop="5dp"
+            android:text="경기장\n- 염주수영장\n\n훈련장\n- 염주수영장 인근수조설치" />
+    </RelativeLayout>
+
+</ScrollView>

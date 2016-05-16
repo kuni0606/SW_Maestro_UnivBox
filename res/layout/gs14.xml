@@ -1,0 +1,101 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:background="@drawable/s19"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="236dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="[ 7/12 ] 09:00 여자 10m 공기 권총 단체전 예선,결승" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:gravity="left"
+            android:text="[ 7/12 ] 12:15 여자 10m 공기 소총 단체전 예선,결승" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:gravity="left"
+            android:text="[ 7/13 ] 09:00 남자 10m 공기 권총 단체전 예선,결승" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:gravity="left"
+            android:text="[ 7/13 ] 14:00 남자 10m 공기 소총 단체전 예선,결승" />
+        
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:gravity="left"
+            android:text="[ 7/14 ] 14:00 남자 10m 공기 소총 개인전 결승" />
+        
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:gravity="left"
+            android:text="[ 7/15 ] 09:00 남자 25m 속사 권총 단체전 결승" />
+        
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:gravity="left"
+            android:text="[ 7/15 ] 17:30 남자 25m 속사 권총 개인전 결승" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:gravity="left"
+            android:text="[ 7/16 ] 12:00 여자 25m 권총 단체전 결승" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:gravity="left"
+            android:text="[ 7/16 ] 15:50 여자 25m 권총 개인전 결승" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:gravity="left"
+            android:text="[ 7/17 ] 09:00 남자 25m 스탠다드 권총 개인전 결승" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:gravity="left"
+            android:text="[ 7/17 ] 09:00 남자 25m 스탠다드 권총 단체전 결승" />
+
+    </LinearLayout>
+
+</ScrollView>

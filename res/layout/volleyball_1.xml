@@ -1,0 +1,115 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+    android:background="@drawable/s19"
+        android:layout_width="match_parent">
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="1041dp" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/volleyball_1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="· 배구"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:text="배구는 토스와 리시브, 스파이크 등과 같은 기술을 이용하여 두 팀 간에 네트를 사이에 두고 벌이는 구기 스포츠로, 볼을 바닥에 떨어뜨리지 않고 서로 쳐서 상대방 팀의 코트에 떨어지게 하는 경기입니다." />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:text="&lt; 세부종목 >"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="5dp"
+        android:text="- 남, 여 2종목 진행" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="20dp"
+        android:text="&lt; 경기방식 >"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="5dp"
+        android:text="- 두 팀의 구성원들이 네트를 사이에 두고 손이나 발로 공을 순간적으로 접촉하여 네트위로 공을 넘겨 상대방 코트바닥에 볼을 닿게 하거나 상대방 진영에서 우리 진영으로 넘어오지 못하게 하는 경기.\n- 각 팀은 12명의 최대선수 리스트에 한 명의 수비 전문 선수인 &quot;리베로&quot;를 지명 할 수 있음.\n- 경기는 5세트 중 3세트를 먼저 얻는 팀이 승리하는데 1~4세트는 25점을 먼저 얻는 팀이 승리하고, 랠리 포인트 스코어링 시스템에 의하여 매 랠리마다 득점\n- 마지막, 5세트는 15점을 먼저 얻는 팀이 승리\n- 각 세트는 2점 차로 이겨야 세트가 종료." />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="20dp"
+        android:text="&lt; 경기유래 >"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="5dp"
+        android:text="- 배구는 1895년 미국 메사추세츠(massachusetts)주 홀리욕시에 있는 Y.M.C.A의 체육부장 윌리엄스 모어간(Williams G.Morgan)에 의하여 고안되었습니다. 배구의 초기 명칭은 민토넷(Mintonette) 으로 불렸으나 미국 메사추세츠의 spring field의 할스테드(DR.H alstead)씨가 Ball을 네트를 넘겨 날려 보내는 게임을 창안해낸 후부터 &quot;발리 보올&quot; (Volley Ball) 이라는 명칭을 붙이게 됩니다. 1946년 프랑스 파리를 주축으로 소련, 폴란드, 유고슬라비아, 체코 등 14개국이 참가한 국제배구연맹(Internationl Volley Ball Federation)이 창설되었습니다." />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="20dp"
+        android:text="&lt; 경기장정보 >"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_below="@+id/textView10"
+        android:layout_marginTop="5dp"
+        android:text="경기장\n- 염주종합체육관(결승)\n- 호남대체육관\n- 고창군립체육관\n- 나주동신대체육관\n- 순천팔마체육관\n\n훈련장\n- 장애인체육센터\n- 종합체육회관\n- 송원고체육관\n- 동성고체육관\n- 전자공고체육관" />
+    
+</RelativeLayout>
+</ScrollView>

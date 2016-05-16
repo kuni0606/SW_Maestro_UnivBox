@@ -1,0 +1,124 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s19" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1680dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/fencing_1" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:text="· 다이빙"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:text="펜싱의 역사는 칼의 역사와 같이 오래되었으나, 현대적 펜싱경기\n의 발전은 1536년에 미켈레 마르초, 1553년에 카밀로 아그\n리파 등이 경기규칙을 정하여 무거운 전투양식의 장비를 제거\n하고 칼을 가볍게 하며 베기" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView1"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginTop="15dp"
+            android:text="기술에 찌르고 막고 반격하는 기술을 체계화한 때부터 입니다. 특히 1567년 프랑스의 샤를 2세에 의하여 이 규칙에 따른 시합이 허용되면서 급속도로 발전하였습니다." />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 세부종목 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="5dp"
+            android:text="개인전 : 6(남녀 각 3종목)\n- 남자 - 에페(Epee), 플뢰레(Fleuret), 사브르(Sabre)\n- 여자 - 에페(Epee), 플뢰레(Fleuret), 사브르(Sabre)\n\n단체전 : 6(남녀 각 3종목)\n- 남자 - 에페(Epee), 플뢰레(Fleuret), 사브르(Sabre)\n- 여자 - 에페(Epee), 플뢰레(Fleuret), 사브르(Sabre)" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기방식 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="5dp"
+            android:text="- 두 경기자가 검(劍)을 가지고 &apos;찌르기&apos;, &apos;베기&apos; 등의 동작으로 득점하여 승패를 겨루는 스포츠.\n- 사용하는 검에 따라 플뢰레·에페·사브르로 나누며, 각각 다른 규칙에 따라 시합을 하는데, 공식용어는 모두 프랑스어임\n\n ▶ 에페(epee) : 전신 찌르기만 가능\n- 유효면 : 상대 선수의 머리에서 발끝까지 모든 부분\n- 검종류 : 무게 770g 이하, 길이 110Cm이하의 칼을 사용하며 가드가 달린 단단한 검으로 칼의 단면도 제일 날카로운 삼각형임.\n ▶ 플뢰레(Fleuret) : 상체 찌르기만 가능\n- 유효면 : 머리와 팔다리를 제외한 상체\n- 검종류 : 무게 500g 이하, 길이 110Cm이하의 칼을 사용하며 가드가 달린 유연한 검으로 칼의 단면은 사각형임.\n ▶ 사브르(sabre) : 베기ㆍ찌르기 가능\n- 유효면 : 아랫배를 제외한 모든 상체\n- 검종류 : 무게 500g이하, 길이 105Cm이하의 칼을 사용하며 가드가 달린 유연한 검으로 칼의 단면은 장방형임.\n\n&lt;개인전>\n- 세계랭킹 및 국가별 안배에 의한 6~7명의 조별 예선전(3분 5포인트)\n- 64강 : 3분 3세트 15포인트 토너먼트 경기\n- 개인전 엘리미나시옹 디렉트의 각 경기들은 15뚜슈(점) 최대 9분 동안 진행\n- 경기는 다음과 같이 종료\n 1. 한 선수가 15뚜슈에 이르렀거나\n 2. 규정된 9분의 시간이 끝났을 때 더 많은 뚜슈를 성공시킨 선수가 승자가 됨.\n\n&lt;단체전>\n- 개인전 성적에 의한 대진표 작성\n- 매경기 3분 5포인트씩 45포인트 획득 릴레이 방식\n- 경기인원 3명에 후보선수 1명" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기유래 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView8"
+            android:layout_below="@+id/textView8"
+            android:layout_marginTop="5dp"
+            android:text="- 서양에서 검이 무기로 사용되었을 때부터 시작된 오랜 역사를 가지고 있으나, 통일된 검기로서 형태를 갖춘 것은 로마 시대입니다. 로마 시대의 펜싱은 엔시스라는 길이 40-86cm의 검을 사용하였고, 당시의 유명한 검사인 라니스테는 최고관으로 대접받았으며, 군대의 전투 기술 교육을 맡았습니다. 16세기 중엽부터는 화약의 발달로 무거운 갑옷을 입는 전투에서 가벼운 전투로 변함에 따라 검도 가벼워 졌으며, 오늘날 펜싱의 시초입니다. 이때 사용된 검은 레이피어라 불리는 스페인,이탈리아 식의 양쪽날이 좁고 긴 것이며, 이것을 한손에 쥐고 보조로서 단검 혹은 외투를 갖추었습니다. 프랑스 앙리상디데이가 현재 각국에서 채택하고 있는 프랑스 류의 검법을 만들어 내어 종래 사용하던 단검을 폐지하고 장검만을 사용하였으며, 오늘날 사용되는 종목은 “플러레”, “에뻬”, “사브르” 3종입니다." />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기장정보 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView10"
+            android:layout_below="@+id/textView10"
+            android:layout_marginTop="5dp"
+            android:text="경기장\n- 광주 김대중 컨벤션 센터\n\n훈련장\n- 올림픽기념국민생활관" />
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s19" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1600dp" >
+
+        <TextView
+            android:id="@+id/button61"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="공식 파트너 대학교"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/imageView60"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/button62"
+            android:layout_toLeftOf="@+id/ImageView61"
+            android:src="@drawable/gg" />
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/imageView60"
+            android:layout_toLeftOf="@+id/ImageView02"
+            android:src="@drawable/nb" />
+
+        <ImageView
+            android:id="@+id/ImageView02"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/ImageView61"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ds" />
+
+        <ImageView
+            android:id="@+id/ImageView05"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/ImageView02"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:src="@drawable/bg" />
+
+        <ImageView
+            android:id="@+id/ImageView07"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/ImageView06"
+            android:layout_toLeftOf="@+id/ImageView08"
+            android:src="@drawable/sw" />
+
+        <ImageView
+            android:id="@+id/ImageView08"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/ImageView05"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/sc" />
+
+        <ImageView
+            android:id="@+id/ImageView10"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/ImageView07"
+            android:layout_toLeftOf="@+id/ImageView15"
+            android:src="@drawable/wg" />
+
+        <ImageView
+            android:id="@+id/ImageView13"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/ImageView10"
+            android:layout_toLeftOf="@+id/ImageView11"
+            android:src="@drawable/hw" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/ImageView13"
+            android:layout_marginTop="39dp"
+            android:gravity="center"
+            android:text="파트너 대학교 "
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/ImageView19"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/ImageView12"
+            android:layout_toLeftOf="@+id/ImageView17"
+            android:src="@drawable/bj" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/ImageView19"
+            android:layout_marginTop="51dp"
+            android:gravity="center"
+            android:text="프리미엄 대학교 "
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/ImageView22"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/ImageView21"
+            android:layout_toLeftOf="@+id/ImageView23"
+            android:src="@drawable/mj" />
+
+        <ImageView
+            android:id="@+id/ImageView20"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/TextView02"
+            android:layout_toLeftOf="@+id/ImageView17"
+            android:src="@drawable/hnu" />
+
+        <ImageView
+            android:id="@+id/ImageView23"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/ImageView26"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/hnun" />
+
+        <ImageView
+            android:id="@+id/ImageView03"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/ImageView62"
+            android:layout_toRightOf="@+id/ImageView02"
+            android:src="@drawable/mp" />
+
+        <ImageView
+            android:id="@+id/ImageView04"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/ImageView03"
+            android:layout_toRightOf="@+id/ImageView05"
+            android:src="@drawable/sh" />
+
+        <ImageView
+            android:id="@+id/ImageView09"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/ImageView04"
+            android:layout_toRightOf="@+id/ImageView08"
+            android:src="@drawable/yi" />
+
+        <ImageView
+            android:id="@+id/ImageView15"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/ImageView08"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/cb" />
+
+        <ImageView
+            android:id="@+id/ImageView11"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/ImageView10"
+            android:layout_toLeftOf="@+id/ImageView25"
+            android:src="@drawable/hw" />
+
+        <ImageView
+            android:id="@+id/ImageView21"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/TextView02"
+            android:layout_toLeftOf="@+id/ImageView26"
+            android:src="@drawable/hy" />
+
+        <ImageView
+            android:id="@+id/ImageView12"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/TextView01"
+            android:layout_toLeftOf="@+id/ImageView16"
+            android:src="@drawable/gjf" />
+
+        <ImageView
+            android:id="@+id/ImageView25"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/ImageView15"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/hn" />
+
+        <ImageView
+            android:id="@+id/ImageView17"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/ImageView16"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/hgu" />
+
+        <ImageView
+            android:id="@+id/ImageView18"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/TextView01"
+            android:layout_toRightOf="@+id/ImageView16"
+            android:src="@drawable/smu" />
+
+        <ImageView
+            android:id="@+id/ImageView14"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/ImageView09"
+            android:layout_toRightOf="@+id/ImageView15"
+            android:src="@drawable/jj" />
+
+        <ImageView
+            android:id="@+id/ImageView16"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/TextView01"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/gs" />
+
+        <ImageView
+            android:id="@+id/ImageView26"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/TextView02"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/hnu" />
+
+        <ImageView
+            android:id="@+id/ImageView24"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/TextView02"
+            android:layout_toRightOf="@+id/ImageView26"
+            android:src="@drawable/csu" />
+
+        <TextView
+            android:id="@+id/button62"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="74dp"
+            android:gravity="center"
+            android:text="프랜즈 대학교"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/ImageView62"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/button62"
+            android:layout_toRightOf="@+id/ImageView61"
+            android:src="@drawable/gb" />
+
+        <ImageView
+            android:id="@+id/ImageView61"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/button62"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/g" />
+
+        <ImageView
+            android:id="@+id/ImageView06"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/ImageView01"
+            android:layout_toLeftOf="@+id/ImageView02"
+            android:src="@drawable/mh" />
+    </RelativeLayout>
+
+</ScrollView>

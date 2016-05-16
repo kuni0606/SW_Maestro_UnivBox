@@ -1,0 +1,124 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s19" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="918dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/badminton_1" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:text="· 배드민턴"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:text="배드민턴은 네트가 설치된 사각형의 코트에서 라켓과 셔틀콕을 이용하여 두 명의 선수(단식) 혹은 두 팀(복식)이 경기를 펼치는 라켓 스포츠의 일종입니다. 양 선수 또는 양 팀이 서로 상대의 코트로" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView1"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginTop="15dp"
+            android:text="셔틀콕을 쳐서 넘기면서 랠리를 하게 되며, 셔틀콕이 땅에 떨어지는 순간 포인트가 끝나게 됩니다. 셔틀콕이 자신의 코트 안에 떨어지거나 또는 쳐서 넘긴 셔틀콕이 상대방 코트 바깥쪽에 떨어질 경우 실점하게 되며, 반대로 셔틀콕이 상대방 코트 안에 떨어지거나 또는 상대가 쳐서 넘어온 셔틀콕이 자신의 코트 바깥쪽에 떨어질 경우 득점 하게 됩니다." />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 세부종목 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="5dp"
+            android:text="- 단식 : 남자 1종목, 여자 1종목\n- 복식 : 남자 1종목, 여자 1종목, 혼합 1종목\n- 단체 : 혼합 1종목" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기방식 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="5dp"
+            android:text="- 배드민턴은 중앙에 설치된 네트를 사이에 두고 라켓으로 셔틀콕을 상대방 코트에 떨어뜨리거나 상대가 코트 밖으로 셔틀콕을 떨어뜨리는 경우 득점이 되는 경기\n\n- 경기는 3게임을 원칙으로 하며 2게임 선취시 승리 하며, 1게임은 21점을 먼저 얻는 편이 이기게 되나, 20:20의 상황이 될 경우는 연속으로 2점을 먼저 얻는 편이 승리하며 29:29인 경우 30점에 먼저 도달한 편이 승리" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기유래 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView8"
+            android:layout_below="@+id/textView8"
+            android:layout_marginTop="5dp"
+            android:text="- 1820년경 인도의 봄베이 지방에서 성행하였던 푸나(Poona)라는 놀이를 당시 인도에서 주둔하고 있던 영국 육군사관들이 그것을 배워 본국으로 돌아와 경기화시키게 된 것이 정설이라고 할 수 있으며, 배드민턴이란 말은 영국의 지명에서 비롯된 말입니다." />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기장정보 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView10"
+            android:layout_below="@+id/textView10"
+            android:layout_marginTop="5dp"
+            android:text="경기장\n- 화순하니움문화스포츠센터\n\n훈련장\n- 화순이용대체육관" />
+    </RelativeLayout>
+
+</ScrollView>

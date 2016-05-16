@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/s19"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="870dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:src="@drawable/start" />
+
+        <TextView
+            android:id="@+id/button01"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imageView1"
+            android:gravity="left|top"
+            android:text="\n  우리의 젊음과 세상의 젊음이 이어지기를\n\n"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/button02"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/button01"
+            android:layout_marginTop="26dp"
+            android:gravity="left|top"
+            android:text="\n  2015년은 우리의 젊음이\n            세계의 젊음이 되는 때입니다.\n "
+            android:textSize="20dp" />
+
+          <TextView
+              android:id="@+id/button03"
+              android:layout_width="wrap_content"
+              android:layout_height="500dp"
+              android:layout_below="@+id/button02"
+              android:layout_centerHorizontal="true"
+              android:gravity="left|top"
+              android:text="  기간  : 2015년 7월 3일 ~ 7월 14일 (12일간)\n\n  장소  : 광주월드컵경기장 등 광주.전남.북 일원 경기장\n\n  주최  : 국제대학스포츠연맹 (FISU)\n\n  주관  : 대한대학스포츠위원회 (KUSB) ,\n           2015광주하계유니버시아드대회 조직위원회\n\n  종목  : 21개 (정식 13 / 선택 8)\n\n       - 정식 종목  : 기계체조/농구/다이빙/리듬체조/\n            배구/수구/수영/유도/육상/축구/탁구/테니스/펜싱  \n\n       - 선택 종목 : 골프/배드민턴/사격/야구/양궁/\n            조정/태권도/핸드볼\n\n   규모  : 170여개국 2만여 명 (선수단 및 운영진 포함)\n\n   관련행사  : 2015국제대학스포츠연맹집행위원회 총회\n                      2015국제대학스포츠연맹 컨퍼런스\n                      2014국제대학스포츠연맹 포럼\n                      2015세계대학배드민턴챔피언십\n"
+              android:textSize="12dp" />
+
+          <ImageView
+              android:id="@+id/imageView2"
+              android:layout_width="200dp"
+              android:layout_height="150dp"
+              android:layout_alignBottom="@+id/button03"
+              android:layout_centerHorizontal="true"
+              android:src="@drawable/mas2" />
+        
+    </RelativeLayout>
+
+</ScrollView>

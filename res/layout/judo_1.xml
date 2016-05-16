@@ -1,0 +1,116 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+    android:background="@drawable/s19"
+        android:layout_width="match_parent">
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="970dp" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/judo_1" />
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="· 유도"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:text="유도는 온몸을 사용하여 2명의 선수가 상대를 공격하거나 힘의 역학을 이용하여 공격해오는 상대의 허점을 찔러 승패를 겨루는 스포츠입니다." />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="40dp"
+        android:text="&lt; 세부종목 >"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="5dp"
+        android:text="개인전 : 16(남녀 각 8종목)\n- 남자 : -60kg, -66kg, -73kg, -81kg, -90kg, -100kg, +100kg, 무제한급\n- 여자 : -48kg, -52kg, -57kg, -63kg, -70kg, -78kg, +78kg, 무제한급\n\n단체 : 2종목(남자 1, 여자 1)\n- 남자 : -66kg, -73kg, -81kg, -90kg, +90kg\n- 여자 : -52kg, -57kg, -63kg, -70kg, +70kg" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="20dp"
+        android:text="&lt; 경기방식 >"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="5dp"
+        android:text="- 남녀 개인전은 5분간, 단체전은 4분간 경쟁하여 다득점자가 승리하는 경기로 토너먼트 방식으로 진행함\n- 1일 4체급(남자 2, 여자 2)의 경기가 진행되고 모든 선수들은 1체급 이외 무제한급에 출전할 수 있음\n- 개인 및 단체경기로 진행되고 토너먼트 방식에 복식패자부활전과 개인전의 골든스코어제를 각각 채택함\n  . 복식패자부활전으로 예선에서 탈락한 선수들\n에게 다시 한번 3위에 입상할 수 있는 기회를 줌\n  . 경기시간 5분내 승부가 결정되지 않으면 5분간 연장전을 진행하여 먼저 득점을 한 선수가 승리하는 골든스코어제를 적용\n ※ 동메달은 2개 수여함" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="20dp"
+        android:text="&lt; 경기유래 >"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="5dp"
+        android:text="- 유도는 공격과 방어기술에 기초한 격투경기입니다. 유도는 고대 사무라이 전사들의 손기술인 jujitsu에서 발전하였습니다. 일본어로 부드러운 방법을 의미하는 명칭은 정중함, 용기, 신중함, 자제력, 공경, 겸손, 우정, 존경의 도덕적인 코드를 반영합니다." />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="20dp"
+        android:text="&lt; 경기장정보 >"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_below="@+id/textView10"
+        android:layout_marginTop="5dp"
+        android:text="경기장\n- 빛고을체육관\n\n훈련장\n- 문성고체육관\n- 올림픽기념국민생활관" />
+    
+
+</RelativeLayout>
+</ScrollView>

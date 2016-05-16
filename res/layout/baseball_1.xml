@@ -1,0 +1,124 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s19" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="762dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/baseball_1" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:text="· 야구"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:text="야구는 각각 아홉 또는 열 명으\n로 구성된 두 팀이 방망이와 공을 사용해 겨루는 구기 종목\n입니다. 야구의 목표는 공을 방망이(배트)로 맞추어, 한 변이 27.432 미터(90 피트)인 다이아몬드의 각 꼭지점에 놓여" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView1"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginTop="15dp"
+            android:text="있는 루를 밟은 뒤 마지막으로 본루를 밟아서 득점하는 것입니다. 공격과 수비가 완전히 분리된 스포츠로서 공격 팀이 아웃 세 번을 기록할 경우 수비 팀은 공격 팀으로, 공격 팀은 수비 팀으로 바뀌게 됩니다. " />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 세부종목 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="5dp"
+            android:text="- 리그 및 토너먼트 1종목" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기방식 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="5dp"
+            android:text="- 대회는 토너먼트 방식으로 운영(참가국이 풀 리그전 실시)\n- 1라운드, 8강전(5~6,7~8순위결정전) 준결승(3~4위 순위결정전), 결승전\n- 1라운드에서 홈팀은 3루 덕아웃 사용\n- 8강전 : 1라운드 상위 랭크 팀이 홈팀으로 결정되며, 3루 덕아웃 사용" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기유래 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView8"
+            android:layout_below="@+id/textView8"
+            android:layout_marginTop="5dp"
+            android:text="- 야구는 영국에서 19세기 전반경에 배트와 볼을 사용하는 놀이가 성행, 포코너즈 (four corners)라든가, 피더(feeder), 라운더즈등으로 불리었습니다. 이것을 영국인이 미국으로 갖고 와서 미국 독립전쟁(1775년) 이전에 동부 해안 지방에서 많이 하다가 19세기 중엽쯤에는 미국 각지에 보급, 발달되었습니다. 국내에는 1904년 기독교 청년회(현 YMCA)창립 공로자 중의 한 사람인 미국인 질레트(P.S.Gillet)가 청년 회원들에게 야구를 가르치기 시작한 것이 한국 야구의 첫 걸음 입니다. 1911년에 각 학교에서 야구팀을 창설하였으며, 1946년에 대한야구협회를 조직하면서 빠른 속도로 성장하게 됩니다." />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기장정보 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView10"
+            android:layout_below="@+id/textView10"
+            android:layout_marginTop="5dp"
+            android:text="경기장\n- 무등경기장야구장\n- 광주야구장(결승)\n\n훈련장\n- 광주일고야구장" />
+    </RelativeLayout>
+
+</ScrollView>

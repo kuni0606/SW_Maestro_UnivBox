@@ -1,0 +1,124 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s19" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1333dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/taekwondo_1" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:text="· 태권도"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:text="대표적인 한민족 고유의 무술로, 세계적으로 널리 보급된 투기 스포츠이자 대한민국의 국기\n입니다. 태권도는 아무런 무기 없이 언제 어디서나 손과 발을 이용해 공격 또는 방어하는 무도로 신체 단련을 위한 목적과" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView1"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginTop="15dp"
+            android:text="함께 정신적 무장을 통한 올바른 인간화를 중요시\n하는 데 큰 의의를 두고 있는 스포츠 입니다. 스포츠로서 태권도는 다양한 형태의 국제 대회를 갖는 명실상부한 국제적 스포츠 종목입니다." />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 세부종목 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="5dp"
+            android:text="겨루기 : 18종목(개인 16, 단체2)\n\n개인 : 16개 종목(남녀 각 8체급)\n- 남자 : -54kg, -58kg, -63kg, -68kg, -74kg, -80kg, -87kg, +87kg\n- 여자 : -46kg, -49kg, -53kg, -57kg, -62kg, -67kg, -73kg, +73kg\n\n단체 : 2개 종목(남녀 각 5명 팀)\n- 남자 : -54kg, -63kg, -72kg, -82kg, +82kg\n- 여자 : -47kg, -54kg, -61kg, -68kg, +68kg\n\n품새 : 5종목\n- 개인(남,녀), 단체(남,녀, 각 3명), 혼성(남1명)" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기방식 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="5dp"
+            android:text=" ▶겨루기\n- 호구를 착용하고 주먹과 발로 상대를 가격하는 경기로서 토너먼트 방식으로 진행.\n- 경기는 2분 3회전, 회전간 휴식시간은 1분으로 함. 단, 동점일 경우 1분간 휴식후 서든데스 오버타임(먼저 점수를 얻은 자가 승리)으로 2분 1회전의 4회전을 실시.\n- 득점은 몸통의 경우 주먹 및 직선공격에 의한 발차기는 1점, 회전에 의한 발차기는 2점이며, 머리의 경우 직선공격에 의한 발차기 3점, 회전에 의한 발차기는 4점이며, 상대선수가 위험한 상태에 빠져 주심이 계수를 하면 추가 1점이 부여됨.\n\n ▶품새\n- 지정된 시간(1분~2분 이내)에 정해진 2가지 품새(고려, 금강, 태백, 비각, 한류 등 조직위에서 정한 것)를 경연하고, 심판이 점수(10점제)를 부여하여 순위를 결정\n- 채점기준\n▷ 정확성(3점) : 기본동작, 각 품세별 세부동작\n▷ 숙련성(4점) : 균형 및 동작의 크기, 속도와 힘\n▷ 표현성(3점) : 강유․완급․리듬, 기의 표현\n  예선, 본선, 결선으로 나눠 경기를 진행함.(컷 오프 방식)\n▷ 예선 : 참가 선수 중 상위 점수 50% 선발\n▷ 본선 : 예선에서 선발된 선수 중 8명 선발\n▷ 결선 : 본선에서 선발된 8명중 최종 순위 결정" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기유래 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView8"
+            android:layout_below="@+id/textView8"
+            android:layout_marginTop="5dp"
+            android:text="- 태권도의 현대적인 형태는 1955년 이후에 공인되었지만, 2000년 이상 이어진 다양한 한국의 무술에 기원합니다. ‘태권도’를 영어로 해석하면 경기하는 방법을 자세히 묘사한 ‘발과 주먹을 쓰는 법’이 됩니다. 문자 그대로 강력한 발차기와 주먹이 경기의 명칭입니다. 1961년 대한태권도협회 창설되어 1963년 전국체전에서 공식경기로 처음 개최되었습니다." />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기장정보 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView10"
+            android:layout_below="@+id/textView10"
+            android:layout_marginTop="5dp"
+            android:text="경기장\n- 조선대체육관\n\n훈련장\n- 조선대지하훈련장" />
+    </RelativeLayout>
+
+</ScrollView>

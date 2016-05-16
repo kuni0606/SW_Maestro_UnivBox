@@ -1,0 +1,161 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s19" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="864dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/golf_1" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:text="· 골프"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:text="골프는 한 명 또는 여러 명이 공을 골프채로 쳐서 골프 코스\n상에 있는 구멍에 공을 넣는 운동입니다. 구기 종목의 하나\n로서 국제적으로 많은 사람들이 여가와 스포츠로서 즐기고 있습니다. 정식으로는 9홀 또는" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView1"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginTop="15dp"
+            android:text="18홀의 경기장에서 게임을 하며 하나의 홀에 공을 넣을 때까지 치는 수가 가능한 한 적어야 우승을 하게 되며, 경기방식은 한 홀마다 대결하는 매치\n플레이방식과 전체 코스에서 소요된 타수를 세는 스트로크 플레이방식이 있습니다. 특히 경기장은 정해진 형태가 아닌 디자인과 지형에 따라 다양한 모습을 가지고 있으며 넓은 면적이 필요한 것이 특징입니다.&quot;" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 세부종목 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_below="@+id/textView4"
+            android:text="총 4종목" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_below="@+id/textView5"
+            android:text="- 개인전 : 2종목(남자 1, 여자 1)" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_below="@+id/textView6"
+            android:text="- 단체전 : 2종목(남자 1, 여자 1)" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_below="@+id/textView7"
+            android:text="․ 72 홀 - 타수경기" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView8"
+            android:layout_below="@+id/textView8"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기방식 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_below="@+id/textView9"
+            android:text="- 하루에 18홀 타수경기를 4일간 연속하여 72홀 타수경기를 진행하는 스트로크플레이" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView10"
+            android:layout_below="@+id/textView10"
+            android:text="- 두 팀 이상, 두 선수 이상이 동점일 경우 서든데쓰(sudden death:단판결승)시스템 적용" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView11"
+            android:layout_below="@+id/textView11"
+            android:text="※ 골프는 각종 클럽을 사용하여 넓은 코스에 설치되어 있는 각 홀에 작은 공을 계속 쳐넣어 그 타수(打數)로 승패를 겨루는 경기" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView12"
+            android:layout_below="@+id/textView12"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기유래 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView13"
+            android:layout_below="@+id/textView13"
+            android:layout_marginTop="5dp"
+            android:text="- 1457년 스코틀랜드의 왕 제임스 2세가 “골프 금지령”을 내린 것이 현존하는 최초의 골프기록으로 전통있는 스포츠입니다. 초기 골프는 13세기 중엽 스코틀랜드 지방의 양치는 목동들이 무료한 시간을 보내던 중 초원에 굴러다니는 돌멩이를 양몰이에 사용하던 지팡이로 힘껏 후려친 것이 초원에 뚫려있는 토끼 굴로 들어가면서 이에 재미를 느낀 목동들이 몇 번을 때려야 굴에 들어가는지 내기를 하면서 재밌는 놀이가 되었습니다." />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView14"
+            android:layout_below="@+id/textView14"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기장정보 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView15"
+            android:layout_below="@+id/textView15"
+            android:text="- 화순무등산G.C" />
+    </RelativeLayout>
+
+</ScrollView>

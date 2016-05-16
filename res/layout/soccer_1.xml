@@ -1,0 +1,124 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s19" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1474dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/soccer_1" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:text="· 축구"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:text="축구는 출전 선수 11명씩 한 팀을 이루어 두 팀이 겨루며, 세계적으로 큰 인기를 누리는 스포츠입니다. 경기장은 직사\n각형이며, 바닥은 천연 잔디나 인조 잔디, 흙 등으로 이뤄져 있습니다. 경기장 양 끝에 놓인" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView1"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginTop="15dp"
+            android:text="상대방 골대 사이로 공을 통과시키면 득점이 된며, 선수 중 골키퍼만 팔과 손으로도 공을 건드릴 수 있으며, 나머지 선수는 팔과 손을 제외한 신체 부위로만 공을 다룰 수 있습니다." />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 세부종목 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="5dp"
+            android:text="- 남, 여 2종목 진행" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기방식 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="5dp"
+            android:text="- 축구는 11명의 선수가 상대방 골네트에 골을 넣어 승부를 결정하는 경기로서 골기퍼만 페널티 에리어안에서 손으로 공을 잡을 수 있으며, 나머지 선수는 아웃된 볼을 던지기 할 때만 손으로 하고 그 외는 발, 머리, 몸으로 볼을 터치함\n- 남, 여 예선리그 및 토너먼트 경기 (FISU EC에서 결정하며, 전체순위 결정전 진행)\n- 무승부시 결승경기만 연장전이 있으며 나머지 경기는 승부차기로 순위 결정\n- 결승전 무승부시 전․후반 각 15분 연장전 실시\n   .연장전에서도 무승부시 승부차기 실시\n- 경기시간은 전․후반 각 45분이며, 중간에 15분간 휴식" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기유래 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView8"
+            android:layout_below="@+id/textView8"
+            android:layout_marginTop="5dp"
+            android:text="- 축구의 정식 명칭은 어소시에이션풋볼 입니다. 그래서 흔히 세계 여러 나라에서는 ‘association’의‘soc’를 빼내어‘사커(soccer)’라고 부르며, 풋볼이라고도 합니다. BC 7∼6세기 무렵 고대 그리스시대에 행한 에피스키로스라는 공을 차고 던지는 간단한 형식의 게임에서 유래되었다고 전해지며, 고대 중국에서는 이보다 먼저 축구형식의 공놀이가 행해졌다는 설도 있습니다. 그 뒤 로마시대에는 군사경기로 널리 보급되었고, 로마가 영국을 침공하였을 때 하르파스툼이라는 경기를 보급시켜, 이것이 영국에서의 근대 축구의 기원이 되었다고 전해집니다. 영국에서 조직화되고 발전한 축구는 영국에 유학한 사람들에 의해 그들의 고국에 보급되거나, 영국인 목사·선교사·군인·상인들에 의해 세계 각국에 소개되고 보급되었습니다. 축구는 세계적인 열광 속에 1904년 국제 관리기구로서 FIFA(Federation Internationale de Football Association：국제축구연맹)를 탄생시켰고, FIFA 가입국은 208개국(2010)에 이릅니다. 범세계적 경기로 행해지고 있는 대회는 올림픽경기대회에서 1900년부터 개최되는 축구경기와, 그 중간 해에 4년마다 아마추어나 프로 선수 모두 참가하여 열리는 월드컵축구대회, 월드컵여자축구대회, 세계청소년축구대회 등이 있습니다." />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기장정보 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView10"
+            android:layout_below="@+id/textView10"
+            android:layout_marginTop="5dp"
+            android:text="경기장\n- 호남대축구장\n- 나주공설운동장(결승)\n- 고창공설운동장\n- 정읍공설운동장\n- 보성공설운동장\n- 영광스포티움축구장\n- 목포국제축구센터\n- 목포국제축구센터 보조경기장\n\n훈련장\n- 상무시민공원축구장\n- 조선대축구장1,2\n- 호남대보조축구장\n- 금호고 축구장\n- 공무원 교육원 축구장\n- 광주과학기술원축구장\n- 전남대 축구장\n- 영광 스포티움 보조축구장\n- 나주 공설 보조운동장\n- 화순 공설 보조운동장" />
+    </RelativeLayout>
+
+</ScrollView>

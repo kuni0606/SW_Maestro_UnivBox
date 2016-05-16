@@ -1,0 +1,124 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s19" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1247dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/tabletennis_1" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:text="· 탁구"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:text="탁구는 2명(단식) 또는 4명(복\n식)의 선수가 탁구 라켓을 사용해 가볍고 속이 빈 공을 탁구대 위에서 쳐넘기며 승부를 겨루는 스포츠입니다. 경기는 중앙에 네트가 설치된 딱딱하고 평평한 탁구대 위에서 이루어" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView1"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginTop="15dp"
+            android:text="집니다. 서브 할 때를 제외하고는 선수들은 자신 쪽 탁구대에 공이 한 번만 튀기게 한 후 이를 쳐내서 상대편 탁구대로 보내야 하며, 이에 실패할 경우 실점하게 됩니다. 일반적으로 탁구 경기는 속도가 빨라 순발력이 요구되며, 숙련된 선수는 스핀을 통해 공의 궤도를 조절할 수 있고, 이를 이용해 상대를 공격하고 자신에게 유리한 상황을 만듭니다." />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 세부종목 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="5dp"
+            android:text="- 단식 : 남자, 여자\n- 복식 : 남자, 여자, 혼합\n- 단체 : 남자, 여자" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기방식 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="5dp"
+            android:text="- 탁구대 중앙에 설치된 네트를 사이에 두고 경기자가 상대하여, 한 개의 셀룰로이드제 공을 라켓으로 치고 받아 득점을 겨루는 경기\n\n- 경기는 홀수전 X선승제(ex: 7전 4선승제, 5전 3선승제)로 하며, 1게임은 11점을 먼저 얻는 측이 이기게 되나, 10:10의 상황이 될 경우는 연속으로 2점을 먼저 얻는 측이 승리(21점제에서 11점제 경기방식:2001년9월1일부터)\n\n- 경기촉진제도(expedite system) : 게임을 시작해서 10분안에 게임이 끝나지 않을 경우, 경기촉진제도가 적용. 이 후 각 선수는 교대로 서비스, 리시브 선수가 13개 성공하면 리시버는 1점 획득" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기유래 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView8"
+            android:layout_below="@+id/textView8"
+            android:layout_marginTop="5dp"
+            android:text="- 15~16세기경 프랑스 궁전의 라파움 (Lapaum) 이라는 놀이가 탁구로 변화하였습니다. 1898년 셀루로이드 공을 사용하게 되면서 그 면모를 일신했으며 쇠가죽 라켓으로 쳤을 때 핑퐁소리가 난다고 하여 “핑퐁(Ping-Pong)”이라고 하였습니다. 국제경기로 발전한 것은 1926년 당시 독일 탁구협회장이었던 레만박사 (Dr. Georg Lehmann)가 제창하여 오스트리아, 독일, 헝가리 등의 대표들이 모여 국제탁구연맹 (The International Table Tennis Federation)을 창설하면서부터 이며 탁구 (Table Tennis)라는 이름도 이때부터 공식명칭으로 사용하였습니다.  우리나라에 언제 어디서 어떤 경로로 도입이 된 것인지 문헌상 분명하게 기록된 것은 없으나 국제탁구연맹 편람에는 탁구가 1899년 영국에서 일본으로 보급되었고 1900년대 초 한국/중국/홍콩 등지로 전파되었다고 기술되어 있을 따름이며 대한탁구협회에서는 1924년 1월 “경성일일신문사”에서 주최했던 “핑퐁경기대회”를 한국탁구의 효시라 하며, 이를 계기로 소수계층에서 대중스포츠로 보급되기 시작하였습니다." />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기장정보 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView10"
+            android:layout_below="@+id/textView10"
+            android:layout_marginTop="5dp"
+            android:text="경기장\n- 장성 홍길동 체육관\n\n훈련장\n- 장성문향고체육관" />
+    </RelativeLayout>
+
+</ScrollView>

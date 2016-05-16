@@ -1,0 +1,115 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+    android:background="@drawable/s19"
+        android:layout_width="match_parent">
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="914dp" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/basketball_1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="· 농구"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:text="양 팀 각 5명의 선수가 한 개의 공으로 상대팀의 3 미터 높이\n의 바스켓에 던져 넣기 위해 공방전을 벌이는 스포츠입니\n다. 강인한 체력, 재빠른 몸놀림, 지구력 등이 요구되며, 전 세계\n에서 가장 인기 있는 스포츠 중의 하나입니다." />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:text="&lt; 세부종목 >"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="5dp"
+        android:text="- 남, 여 2종목 진행" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="20dp"
+        android:text="&lt; 경기방식 >"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="5dp"
+        android:text="- 농구경기는 각기 5 명씩으로 구성된 두 팀이 볼을 상대 팀의 바스켓에 넣어 득점하거나 또는 상대 팀이 볼을 컨트롤하거나 득점 하려는 것을 못하게 하는 경기\n- 경기는 4 피리어드(1피어리드 10분) 또는 연장전의 경기시간이 끝났을 때 득점을 많이 한 팀이 승자가 됨. 1피어리드(10분)→ 휴식(2분)→ 2피어리드(10분)→ 하프타임(15분)→ 3피어리드(10분)→ 휴식(2분)→ 4피어리드(10분)" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="20dp"
+        android:text="&lt; 경기유래 >"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="5dp"
+        android:text="- 1890년경 미국에서 겨울철 청소년의 운동욕구를 만족시킬 수 있는 경기 창안이 논의되어 미국 매사추세츠 스프링 필드 국제 YMCA대학 네이스미스 박사가 한 팀을 9명으로 하여 축구볼을 사용하여 체육관 양쪽 벽에 매달아 놓은 복숭아 바구니에 골을 넣은 경기를 한 것에서 유래합니다. 1903년 황성기독청년회(YMCA)가 한국에 최초로 농구를 전파하였으며, 초대총무 필립 L. 질레트(吉禮泰, Philip.L.Gilet)의 지도로 개시되었습니다." />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="20dp"
+        android:text="&lt; 경기장정보 >"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="5dp"
+        android:text="경기장\n- 동강대체육관(결승)\n- 무안실내체육관\n- 무안초당대체육관\n- 영광스포티움체육관\n\n훈련장\n- 광주고체육관\n- 수피아여고체육관\n- 고려고체육관\n- 서석고체육관\n- 설월여고체육관" />
+    
+</RelativeLayout>
+</ScrollView>

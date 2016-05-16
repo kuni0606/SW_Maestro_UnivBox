@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/s19"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="667dp" >
+
+        <TextView
+            android:id="@+id/button01"
+            android:layout_width="wrap_content"
+            android:layout_height="240dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView1"
+            android:gravity="left|top"
+            android:text="\n  국제대학스포츠연맹이 주최하여  2년에 한 번씩 열리는 세계 학생  스포츠 대회이다.\n\n  대학스포츠의 발전, 학생의 체육 및  후생, 모든 나라 학생들의 좀더 밀접한  접촉 및 국제적인  대학스포츠 통일을  위한 협력 등을 목적으로 한다.
+\n\n  참가자격은 대회가 열리는 해의 전 2년  이내 대학졸업자까지며, 대회가 열리는  해의 1월 1일에 만 17∼28세 미만인  사람이다."
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="44dp"
+            android:src="@drawable/fisu" />
+
+        <TextView
+            android:id="@+id/button02"
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:layout_below="@+id/button01"
+            android:layout_marginTop="70dp"
+            android:layout_toRightOf="@+id/imageView2"
+            android:gravity="left|top"
+            android:text="\n  세계 젊은이들의 스포츠 축제인  유니버시아드와 열정적인 도시  광주의 만남은 가장 창조적인  대회를 예고 합니다.\n\n  스포츠를 넘어 다양한 영역에서  인류화합과 공영의 가치를 실현하여  유니버시아드의 새로운 비전을 찾을  것이고, 2015광주하계유니버시아드와  함께 전세계 대학생 역시 이 창조적인  순간들을 통해 새롭게 태어날 것입니다."
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_alignTop="@+id/button02"
+            android:layout_marginTop="17dp"
+            android:layout_toLeftOf="@+id/button01"
+            android:src="@drawable/main" />
+        
+    </RelativeLayout>
+
+</ScrollView>

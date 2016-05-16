@@ -1,0 +1,124 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s19" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="2594dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/rhythm_1" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:text="· 리듬체조"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:text="리듬체조는 율동적인 움직임과 음악을 결합시켜 개성을 풍부\n하게 표현하는 운동으로, 개인 또는 팀이 곤봉, 후프, 공, 리본, 줄 등의 기구를 이용합니다. 신체조 또는 현대리듬체조\n(modern rhythmic gymnas" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView1"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginTop="15dp"
+            android:text="tics)라고도 하며, 마루운동, 맨손체조, 무용 등의 요소가 가미된 전신 운동입니다." />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 세부종목 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="5dp"
+            android:text="단체경기\n- 단체종합 1종목, 종목별결승 2종목(단일수구, 복합수구)\n\n개인경기\n- 개인종합 1종목, 종목별결승 4종목" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기방식 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="5dp"
+            android:text="경기의 종류\n- 리듬체조 경기의 종류에는 개인과 단체경기가 있고, 5가지 수구 중 개인경기는 4가지 기구를 실시하며, 단체경기에서 시니어 경기는 단일수구와 2가지의 수구를 혼합(예, 볼 2 + 후프 3)하여 실시\n- 경기는 줄, 후프, 볼, 곤봉, 리본의 순서로 진행(2년에 한 종목씩 로테이션 되어 빠지며 4종목을 실시)\n- 개인경기는 1분 15초~1분 30초, 단체경기는 2분 15초 ~ 2분 30초 사이에 연기를 실시\n\n ▶ 줄(Rope)\n- 줄은 마 혹은 합성수지로 된 것을 사용하며 선수는 뜀뛰기, 돌리기, 흔들기, 던지기와 잡기, 휘감기 등 줄의 특성을 살린 수구요소와 점프와 립을 주 신체동작으로 하는 신체난도요소를 조화롭게 구성한 연기를 실시.\n경기 중에는 필수 신체동작 그룹(점프/립)을 사용한 난도를 6~12개까지 할 수 있으며 나머지 비필수 그룹인 밸런스, 피봇, 유연성 그룹에서 최대 각 2개씩의 난도를 선택하여 연기.\n줄에서 요구되는 신체동작 요소인 점프와 립의 난도는 적당한 높이, 고정되고 정확한 형태 또는 충분한 크기가 있어야 난도로 인정받을 수 있으며 수구와 조화를 이루지 못한 신체요소는 난도로 인정받을 수 없음.\n\n ▶ 후프(Hoop)\n- 후프는 목재 또는 플라스틱 소재의 직경 80~90cm, 최소무게 약 300g 정도의 수구를 사용.\n선수는 신체나 바닥위로 굴리기, 회전, 던지고 받기, 후프 통과하기, 후프 위 요소, 흔들기, 원 그리기, 8자 그리기 등 다양한 수구요소와 필수 신체동작 그룹을 조화롭게 구성한 연기를 실시.\n후프경기에서는 점프/립, 밸런스, 피봇, 유연성/웨이브의 4그룹에서 조화롭게 분배된 필수 신체동작 난도를 실시하여야 하며 어떤 그룹도 다른 그룹보다 2개 이상 초과된 난도를 실시할 수 없음.\n신체 동작 그룹 난도의 동등하지 않은 사용에 의한 감점은 0.50점이며 다른 그룹보다 2개 이상 많은 난도 실시도 0.50점 감점.\n\n ▶ 볼(Ball)\n- 볼은 고무 또는 플라스틱 소재의 직경 18~20cm, 최소 400g 정도의 수구를 사용. 선수는 던지기와 받기, 튀기기, 굴리기, 스윙, 원 그리기, 8자 그리기 등의 수구요소와 유연성 및 웨이브를 주 신체동작으로 하는 신체난도요소를 조화롭게 구성한 연기를 실시.\n볼은 일반적으로 한 손으로 던지고 받으며 움켜쥐는 동작은 정지로 간주 . 모든 유연성과 웨이브 난도는 한발이나 두발 또는 신체 다른 부분의 지지에 의해서 연기되며 고정되고 뚜렷한 형태 및 적합한 크기를 유지하여야 함.\n난도가 지속되는 동안 수구가 움직이지 않으면 난도로 간주하지 않으며 수구의 기술적인 움직임은 반드시 유연성 자세가 고정된 순간부터 자세가 변하기 시작할 때까지 계산.\n\n ▶ 곤봉(Club)\n- 곤봉은 나무 또는 합성소재의 곤봉 1개당 최저 150g정도의 수구를 사용. 선수는 작은 원그리기, 풍차 돌리기, 던지기와 받기, 치기, 흔들기, 8자 그리기, 비대칭 동작 등의 수구요소와 밸런스를 주 신체동작으로 하는 신체난도 요소를 조화롭게 구성한 연기를 실시.\n연기 동안 곤봉 조작의 50%는 곤봉의 머리를 잡고 연기해야 하며 비대칭 동작은 반드시 각 곤봉의 다른 움직임(형태, 크기, 작업 면이나 방향)으로 수행.\n밸런스의 모든 난도는 발끝이나 한 무릎으로 연기되어야 하며 밸런스 동작 중에는 고정되고 뚜렷한 형태와 적합한 크기를 요구.\n한 번의 밸런스 자세는 최소한 수구의 두 동작과 결합되어야 하며 부족할 경우 난도의 가치는 취소. 밸런스 난도를 하는 동안 수구가 멈춰있으면 난도는 유효하지 않으며 수구의 기술적 움직임은 반드시 밸런스 자세가 고정되는 순간부터 자세가 변하기 시작할 때까지 계산\n\n ▶ 리본(Ribbon)\n- 리본 대(stick)는 나무나 플라스틱의소재의 50~60cm, 리본은 사텐 혹은 기타 직물소재로 최저무게 35g, 폭 4~6cm의 수구를 사용.\n선수는 리본의 특성을 살린 스네이크 모양그리기, 나선형 모양그리기, 쓰러스트, 스윙, 원 그리기, 8자 그리기, 던지기, 부메랑 던지기, 스몰 토스, 리본 통과하기 등의 수구요소와 피봇을 주 신체동작으로 하는 신체난도 요소를 조화롭게 구성한 연기를 실시.\n모든 피봇 난도는 발끝으로 실시하며 회전동안과 끝날 때까지 고정되고 뚜렷한 형태와 크기를 가져야 하며 형태의 크기와 수준이 난도의 수준을 결정.\n회전을 시작하면서 다리가 올라가고 회전이 끝날 때 같은면과 방향으로 정확히 내려와야 하며 형태가 무너질 경우 난도의 총 가치는 취소.\n\n ▶ 연기의 평가\n- 선수가 실시한 연기에 대하여 실시심판(E)이 연기의 기술적 실수를 평가하며 예술심판(A)은 연기구성의 예술성(음악과 안무)을 평가. 한편 난도심판(D)은 연기 구성의 기술적 가치를 평가.\n * 최종점수는 실시점수10점 + 최종 구성 점수{(A+D)/2}로 계산" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기유래 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView8"
+            android:layout_below="@+id/textView8"
+            android:layout_marginTop="5dp"
+            android:text="- 리듬체조는 1800년대에 다수의 연관된 훈련에서 발전하였습니다. 근육단련을 위한 기구사용을 강조하는 독일식과 율동을 전개하기 위해 자유로운 방식을 사용하는 스웨덴식 뿐만 아니라 ‘플리에’와 ‘아라베스크’와 같은 고전발레 동작들을 결합했습니다. 안무가 짜여진 집단체조는 1930년대에 동유럽에서 처음 경기가 열리기까지 천천히 성장해 왔습니다. 국제체조연맹은 1963년에 공식적인 종목으로 리듬체조를 공인했고, 1년후에 부다페스트에서 국제경기를 계획하였습니다. 1964년에 세계리듬체조경기가 공식적으로 개최되었고 소련의 Ludmila Savinkova가 초대 챔피언이 되었습니다." />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기장정보 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView10"
+            android:layout_below="@+id/textView10"
+            android:layout_marginTop="5dp"
+            android:text="경기장\n- 신축다목적체육관\n\n훈련장\n- 전남여상체육관" />
+    </RelativeLayout>
+
+</ScrollView>

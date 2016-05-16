@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/s19"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1697dp" >
+
+        <TextView
+            android:id="@+id/button01"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="외국어 교육 프로그램"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/button02"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="74dp"
+            android:gravity="center"
+            android:text="\n글로벌 시민 인재양성\n국제 스포츠 사상 최장기 언어교육프로젝트!"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/button03"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button02"
+            android:layout_marginTop="22dp"
+            android:gravity="center|top"
+            android:text="“외국인 손님들은 우리에게 맡기세요!”\n 지금 광주에는 10대부터 70대 은퇴 어르신까지\n외국어 학습 열기가 가득!"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/button04"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/button03"
+            android:layout_marginTop="75dp"
+            android:gravity="center"
+            android:text="외국어스쿨은 국제대회 개최의 주역인\n광주시민을 대상으로 글로벌마인드를\n고취하고 외국어 의사소통이 가능한\n자원봉사자 확보를 위해 2015년\n까지 운영하는 시민 교육프로그램이며,\n국제스포츠 사상 대회 준비를 위해\n장기간 시행하는 최초의 외국어 교육입니다.\n\n지역인재 양성과 자원봉사자 120,000명\n양성이라는 목표로 2010년 3월부터\n시작하였으며 외국어 습득을 희망하는\n사람들이 언제 어디서나 쉽게 배울 수\n있는 기회를 제공하고 있습니다."
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/button05"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button03"
+            android:layout_marginTop="214dp"
+            android:gravity="center"
+            android:text="\n시민들의 외국어 능력 향상은 지방\n도시의 국제화를 앞당기고, 도시 경쟁력을\n높이는 의미 있는 유산이 될 것이며,\n특히, 자원봉사자들은 2015 광주 하계\n유니버시아드를 성공적으로 개최하는 새로운\n역사의 주인공이 될 것입니다."
+            android:textSize="15dp" />
+
+		 <TextView
+		     android:id="@+id/button07"
+		     android:layout_width="match_parent"
+		     android:layout_height="80dp"
+		     android:layout_alignParentLeft="true"
+		     android:layout_alignTop="@+id/button06"
+		     android:layout_marginTop="34dp"
+		     android:gravity="center"
+		     android:text="일반시민 대상,\n언어교육원 위탁교육"
+		     android:textSize="18dp" />
+
+		  <ImageView
+		      android:id="@+id/ImageView52"
+		      android:layout_width="match_parent"
+		      android:layout_height="130dp"
+		      android:layout_alignParentLeft="true"
+		      android:layout_below="@+id/button08"
+		      android:layout_marginTop="16dp"
+		      android:src="@drawable/cl" />
+
+		  <ImageView
+		      android:id="@+id/imageView51"
+		      android:layout_width="200dp"
+		      android:layout_height="100dp"
+		      android:layout_below="@+id/button05"
+		      android:layout_centerHorizontal="true"
+		      android:src="@drawable/banner" />
+
+		  <TextView
+		      android:id="@+id/button06"
+		      android:layout_width="match_parent"
+		      android:layout_height="50dp"
+		      android:layout_alignParentLeft="true"
+		      android:layout_below="@+id/imageView51"
+		      android:layout_marginTop="22dp"
+		      android:gravity="center"
+		      android:text="외국어 스쿨"
+		      android:textSize="30dp" />
+
+		  <TextView
+		      android:id="@+id/button08"
+		      android:layout_width="match_parent"
+		      android:layout_height="200dp"
+		      android:layout_alignParentLeft="true"
+		      android:layout_below="@+id/button07"
+		      android:gravity="center"
+		      android:text="영어\n광주과학기술원, 광주교육대학교, 광주대학교,\n광주보건대학교, 광주여자대학교, 송원대학교,\n조선대학교, 호남대학교\n\n중국어\n남부대학교, 송원대학교, 조선대학교,\n호남대학교(공자아카데미)\n\n불어·스페인어·일어\n조선대학교."
+		      android:textSize="14dp" />
+
+		   <TextView
+		       android:id="@+id/button56"
+		       android:layout_width="match_parent"
+		       android:layout_height="50dp"
+		       android:layout_alignParentLeft="true"
+		       android:layout_below="@+id/ImageView52"
+		       android:layout_marginTop="26dp"
+		       android:gravity="center"
+		       android:text="외국어 경진 대회"
+		       android:textSize="30dp" />
+
+		   <TextView
+		       android:id="@+id/button57"
+		       android:layout_width="match_parent"
+		       android:layout_height="80dp"
+		       android:layout_alignParentLeft="true"
+		       android:layout_below="@+id/button56"
+		       android:layout_marginTop="14dp"
+		       android:gravity="center"
+		       android:text="글로벌마인드 함양,\n외국어 실력 향상\n통한 국제대회 통역자원봉사 인력 발굴"
+		       android:textSize="18dp" />
+
+		   <TextView
+		       android:id="@+id/button58"
+		       android:layout_width="match_parent"
+		       android:layout_height="200dp"
+		       android:layout_alignParentLeft="true"
+		       android:layout_below="@+id/button57"
+		       android:gravity="center"
+		       android:text="국제적 감각을 갖춘 창조적 인재를 육성하고,\n2015광주하계유니버시아드 등\n국제행사 외국어 통역 자원봉사 인력 양성을\n위한 목적으로 2010년부터 진행되고 있는\n외국어경진대회는 시간이 갈수록\n열기가 더해가고 있습니다.\n전국 유일의 공익 목적 대회이며,\n전국 최대 규모와 최고의 권위가 있는\n대회로 자리잡아 가고 있습니다."
+		       android:textSize="14dp" />
+
+    </RelativeLayout>
+
+</ScrollView>

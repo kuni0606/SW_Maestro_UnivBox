@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/s19"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/button01"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="홍보대사"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/button02"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="42dp"
+            android:gravity="center"
+            android:text="\n올림픽 스포츠 스타인\n 기보배, 손연재, 양학선, 최은숙\n 그리고 Miss A 의 수지가\n 2015광주하계유니버시아드\n 홍보대사로 위촉되었습니다."
+            android:textSize="18dp" />
+
+           <ImageView
+               android:id="@+id/imageView42"
+               android:layout_width="250dp"
+               android:layout_height="150dp"
+               android:layout_alignLeft="@+id/imageView41"
+               android:layout_below="@+id/button42"
+               android:layout_marginTop="16dp"
+               android:layout_centerHorizontal="true"
+               android:src="@drawable/son" />
+
+           <TextView
+               android:id="@+id/button43"
+               android:layout_width="match_parent"
+               android:layout_height="100dp"
+               android:layout_alignParentLeft="true"
+               android:layout_below="@+id/imageView42"
+               android:gravity="left"
+               android:text="  리듬체조 손연재\n  &quot;2015년 광주하계유니버시아드 홍보대사를 맡게 되어서\n  정말 영광스럽게 생각하고요.\n  홍보대사로써 정말 최선을 다해서 역할을 해내겠습니다.&quot;"
+               android:textSize="12dp" />
+
+           <TextView
+               android:id="@+id/button44"
+               android:layout_width="match_parent"
+               android:layout_height="100dp"
+               android:layout_alignParentLeft="true"
+               android:layout_below="@+id/ImageView43"
+               android:gravity="left"
+               android:text="  양궁 기보배\n  &quot;우리나라에서 유니버시아드 대회가 열리는 것만도\n  큰 기쁨인데요. 이런 중요한 대회의 홍보대사를 맡게\n  되다니 영광스럽게 생각합니다. 우리나라를 세계에\n  널리 알리고 위상을 더욱 높일 수 있는 중요한 대회로\n  2015광주하계유니버시아드가 성공적으로 개최될\n  수 있도록 홍보대사로서 열심히 뛰어보겠습니다.&quot;"
+               android:textSize="12dp" />
+
+           <TextView
+               android:id="@+id/button45"
+               android:layout_width="match_parent"
+               android:layout_height="100dp"
+               android:layout_alignParentLeft="true"
+               android:layout_below="@+id/ImageView44"
+               android:gravity="left"
+               android:text="  기계체조 양학선\n  &quot;유니버시아드라는 큰 대회에서 이렇게 홍보대사로\n  활동하게 되서 너무 감사드리고 싶은 마음이고요.\n  홍보대사로써의 마음가짐과 부끄럽지 않은 행동으로\n  이번 광주하계유니버시아드에서 멋진 모습 보여드리겠습니다.&quot;"
+               android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/button46"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/ImageView45"
+                android:gravity="left"
+                android:text="  펜싱 최은숙\n  &quot;2015년 광주하계유니버시아드 홍보대사를 맡게 되어서\n  정말 기쁘고요. 2011년에 참가했을 땐 별로 좋은 성과를\n  얻지 못했어요. 좌절하지 않고 훈련을 더 열심히 해서\n  2012년 런던올림픽에서 좋은 성과를 얻게 되었어요.\n  정말 영광스러운 일이였고요. 돌이켜보면 유니버시아드가\n  정말 좋은 경험이었고, 좋은 기회가 됐던 것 같아요.\n  그래서 이번 2015년 광주하계유니버시아드에서 모든\n  선수들이  좋은 경험을 하고 그것을 바탕으로 더 큰 대회에서\n  좋은 성과를 얻었으면 좋겠습니다.&quot;"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/button42"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imageView41"
+                android:gravity="left"
+                android:text="  미스에이 수지\n  &quot;세계적인 큰 스포츠행사인  ‘광주하계유니버시아드 대회’가\n  광주에서 개최한다는 소식을 들었을 때,기분이 좋았었는데,\n  홍보대사를 맡게 되어서 너무 영광스럽게 생각하고요.\n  큰 힘이 되지는 않겠지만,홍보대사로서 작게나마 제가\n  할수 있는 만큼 작은 힘이라도 보탤 수 있게 노력하겠습니다.&quot;"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:id="@+id/ImageView45"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/button45"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/choi" />
+
+            <ImageView
+                android:id="@+id/imageView41"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_alignLeft="@+id/ImageView45"
+                android:layout_below="@+id/button02"
+                android:layout_marginTop="26dp"
+                android:src="@drawable/su" />
+
+            <ImageView
+                android:id="@+id/ImageView43"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_alignLeft="@+id/imageView42"
+                android:layout_alignTop="@+id/button43"
+                android:layout_marginTop="82dp"
+                android:src="@drawable/ki" />
+
+            <ImageView
+                android:id="@+id/ImageView44"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_alignLeft="@+id/ImageView45"
+                android:layout_below="@+id/button44"
+                android:layout_marginTop="28dp"
+                android:src="@drawable/yang" />
+
+    </RelativeLayout>
+
+</ScrollView>

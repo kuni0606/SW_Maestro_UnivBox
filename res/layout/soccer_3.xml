@@ -1,0 +1,211 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s19"
+    tools:context="com.example.gwangjumap.StadiumActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="445dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/honamunivfootball120" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imageView1"
+            android:src="@drawable/najuground120" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imageView2"
+            android:src="@drawable/hwasoonground120" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/textView4"
+            android:layout_alignTop="@+id/imageView3"
+            android:layout_marginTop="28dp"
+            android:layout_marginRight="22dp"
+            android:text="화순공설운동장"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imageView3"
+            android:src="@drawable/damyangcoosung120" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_alignRight="@+id/textView7"
+            android:layout_below="@+id/textView7"
+            android:text="주소 : 전남 담양군 담양읍 객사리 1"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/textView3"
+            android:layout_alignTop="@+id/imageView4"
+            android:layout_marginTop="30dp"
+            android:text="담양추성경기장"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imageView4"
+            android:src="@drawable/younggwangfootball120" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignTop="@+id/imageView5"
+            android:layout_marginTop="28dp"
+            android:text="영광스포티움축구장"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView4"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="39dp"
+            android:text="나주공설운동장"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_marginBottom="17dp"
+            android:text="주소 : 전남 나주시 송월동"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/textView4"
+            android:layout_marginTop="22dp"
+            android:text="호남대 축구경기장"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:text="주소 : 광주광역시 광산구 어등대로 417"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView5"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_alignRight="@+id/textView7"
+            android:layout_below="@+id/textView9"
+            android:text="주소 : 전남 영광군 영광읍 단주리 258-8"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView3"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignRight="@+id/textView5"
+            android:layout_below="@+id/textView5"
+            android:text="주소 : 전남 화순군 화순읍 대리 501-6"
+            android:textSize="12dp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imageView5"
+            android:src="@drawable/mokpofootball120" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView11"
+            android:layout_alignRight="@+id/textView11"
+            android:layout_below="@+id/textView11"
+            android:text="주소 : 전남 목포시 내화마을길 89"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView10"
+            android:layout_alignTop="@+id/imageView6"
+            android:layout_marginTop="32dp"
+            android:text="목포국제축구센터"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imageView6"
+            android:src="@drawable/bosunggym120" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView12"
+            android:layout_alignTop="@+id/imageView7"
+            android:layout_marginTop="32dp"
+            android:text="보성공설운동장"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView13"
+            android:layout_alignParentBottom="true"
+            android:text="주소 : 전남 보성군 보성읍 용문길 18 서편제소리전수관"
+            android:textSize="12dp" />
+
+    </RelativeLayout>
+
+</ScrollView>

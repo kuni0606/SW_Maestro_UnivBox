@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/s19"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="988dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/m" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:text="&lt; 빛의 날개 >"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="23dp"
+            android:layout_toLeftOf="@+id/textView1"
+            android:src="@drawable/image02" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/imageView2"
+            android:text="세계 곳곳에 창조의 희망 뿌리는 빛의 천사\n‘누리비’는 세상을 뜻하는 우리말 ‘누리’  날다의 ‘비(飛)’를 결합한 조어로, 세계 젊은이들 사이에 소통의 가교 역할을 하는 빛의 전령사입니다.\n\n 광주유니버시아드의 비전인 EPIC(친환경, 평화, IT, 문화)을 세계에 알리는 상징적 존재로서 창조의 날개를 활짝 펴고 광주의 빛을 전세계에 전하라는 뜻이 담겨있습니다.\n\n 빛의 도시 광주를 상징하는 빛의 이미지로 일관된 아이덴티티를 구축했습니다." />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginLeft="20dp"
+            android:text="5대양 6대주의 날개를 표현\n열정, 꿈, 화합 싣고 비상”\n\n빛의 도시 광주와 무한 발전의 ‘비상’을\n기본 컨셉으로 스포츠 대회의 역동성과\n세계인의 화합을 표현하였습니다.\n\n유니버시아드의 상징인 ‘U’형상을 \n내포하고 있습니다.\n\n우측 5개의 날개와 좌측 6개의 날개는\n각각 5대양(Blue) 6대주(Red)를 상징하고\n있습니다.\n\n빛의 겹침은 유니버시아드를 통한 전 세계\n젊은이들의 화합과 우의를 의미합니다.\n\n빛의 발산은 빛의 도시 광주가\n유니버시아드를 통해 세계적인 도시로의\n도약과 비상을 상징하며, 날개의 펼쳐짐은\n스포츠를 통한 젊은이들의\n이상과 승리 염원을 내포합니다." />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_marginTop="58dp"
+            android:text="&lt; 누리비 >"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+    </RelativeLayout>
+
+</ScrollView>

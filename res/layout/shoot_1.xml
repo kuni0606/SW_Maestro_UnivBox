@@ -1,0 +1,124 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s19" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="2196dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/shoot_1" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:text="· 사격"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:text="사격은 총이나 포 등의 화기를 다루는 기술로서, 탄환을 목표\n물에 정확히 명중시키는 기술 입니다. 원래는 전쟁을 위한 군사적 목적의 기술이라는 성격이 강했으나 점차로 스포츠화 하여, 오늘날에" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView1"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginTop="15dp"
+            android:text="있어서는 고도의 정신집중과 강인한 체력이 요구\n되는 스포츠 중 하나입니다." />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 세부종목 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="5dp"
+            android:text="남자 9종목\n- 소총(3) : 50m복사 60발, 50m3자세 3x40발, 10m공기 60발\n- 권총(4) : 50m 60발, 10m공기 60발, 25m 속사권총 60발, 25m 스탠다드권총 3*20발\n- 스키드(1) : 125사격+결승\n- 트랩(2) : 125사격+결승, 더블트랩 150사격+결승\n\n여자 7종목\n- 소총(3) : 50m엎드려쏴 60발, 50m3자세3x20발, 10m공기40발\n- 권총(2) : 25m 30+30발, 10m공기 40발\n- 스키드(1) : 75사격+결승전\n- 트랩(1) : 75사격+결승전" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기방식 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="5dp"
+            android:text="&lt; 소총 >\n ▶ 50m 소총 복사\n- 자세 : 복사(엎드려 쏴)\n- 남자 : 1시간15분, 60발, 600점(올림픽 종목)\n- 결선(남자) : 자세(복사), 본선 1 ~ 8등 결선 진출, 10.9점 * 10발 = 109점, 각 발 통제관의 신호 후 45초내 사격\n- 여자 : 1시간15분, 60발, 600점(비 올림픽 종목, 결선 없음)\n\n ▶ 50m 소총 3자세\n- 자세 : 복사(엎드려 쏴), 입사(서서 쏴), 슬사(무릎 쏴)\n- 남자 : 복사(45분, 40발, 400점), 입사(1시간15분, 40발, 400점), 슬사(1시간, 40발, 400점), 총1200점\n- 여자 : 2시간15분, 복사 200점, 입사 200점, 슬사 200점, 자세별 시간제한 없이 복사, 입사, 슬사 순으로 사격, 총600점\n- 결선 : 자세(입사), 본선 1 ~ 8등 결선 진출, 10.9점 * 10발 = 109점,\n- 각 발 통제관의 신호 후 75초내 사격\n\n ▶ 10m 공기소총\n- 자세 : 입사(서서 쏴)\n- 남자 : 1시간45분, 60발, 600점\n- 여자 : 1시간15분, 40발, 400점\n- 결선 : 본선 1 ~ 8등 결선 진출, 10.9점 * 10발 = 109점, 각 발 통제관의 신호 후 75초내 사격\n\n&lt; 권총 >\n ▶ 공기권총(10m)\n- 자세 : 입사(서서 쏴)\n- 남자 : 1시간45분, 60발, 600점\n- 여자 : 1시간15분, 40발, 400점\n- 결선 : 본선 1 ~ 8등 결선 진출, 10.9점 * 10발 = 109점,\n- 각 발 통제관의 신호 후 75초내 사격\n\n ▶ 50m 권총(남자종목)\n- 자세 : 입사(서서 쏴)\n- 2시간, 60발, 600점(한 표적에 5발 사격)\n- 결선 : 본선 1 ~ 8등 결선 진출, 10.9점 * 10발 = 109점,\n- 각 발 통제관의 신호 후 75초내 사격\n\n ▶ 25m 권총(여자 종목)\n- 자세 : 입사(서서 쏴)\n- 완사 : 5분 * 5발 * 6회, 300점\n- 급사 : (3초 * 1발 * 5회) * 6회, 각 발당 7초간 준비시간, 300점\n- 총점 : 600점\n- 한 표적에 5발 사격\n- 결선 : 본선 1 ~ 8등 결선 진출, (10.9점 * 3초 * 1발 * 5회) * 4회 = 218점\n\n ▶ 25m 스탠다드권총(남자 종목)\n- 자세 : 입사(서서 쏴)\n- 본선 : 150, 20, 10초 각 5발 시리즈 4회(총 60발), 600점\n- 결선 : 비 올림픽종목으로 결선 없음\n\n&lt; 트랩사격 경기 >\n- 자세 : 입사(서서 쏴)\n- 남자 : 125표적, 125점\n- 여자 : 75표적, 75점\n- 결선 : 본선 1 ~ 6등 결선 진출, 25표적, 25점\n\n&lt; 더블트랩(남자종목) >\n- 자세 : 입사(서서 쏴)\n- 본선, 결선 모두 동시에 2표적 출현\n- 남자 : 150표적, 150점\n- 결선 : 본선 1 ~ 6등 결선 진출, 50표적, 50점\n\n&lt; 스키트(올림픽 종목) >\n- 자세 : 입사(서서 쏴)\n- 남자 : 125표적, 125점\n- 여자 : 75표적, 75점\n- 결선 : 본선 1 ~ 6등 결선 진출, 25표적, 25점" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기유래 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView8"
+            android:layout_below="@+id/textView8"
+            android:layout_marginTop="5dp"
+            android:text="- 사격은 사냥에서 시작했으며, 최초의 사격 모임은 15세기 중앙 유럽에서 있었습니다. 현대사격의 규칙과 경기구조는 유럽과 미국에서 발전했고 19세기 말에 전세계로 퍼져나갔습니다. 1907년 국제사격연맹이 창설되었으며, 1955년에 대한사격협회가 결성된 이후로 많은 발전을 거듭하고 있습니다. 회원국은 100여개국 이상으로 국제사격연맹본부는 독일에 있습니다." />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기장정보 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView10"
+            android:layout_below="@+id/textView10"
+            android:layout_marginTop="5dp"
+            android:text="경기장\n- 나주종합사격장" />
+    </RelativeLayout>
+
+</ScrollView>

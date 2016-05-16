@@ -1,0 +1,124 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s19" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1298dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/diving_1" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:text="· 다이빙"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:text="다이빙은 다이빙 타워나 스프링보드에서 점프하여 물 속으로 뛰어드는 스포츠\n입니다. 1904년 하계 올림픽 때부터 올림픽 경기 종목으로 채택되었습니다. 전문적인 스포츠로서의 다이빙은 체조와" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView1"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginTop="15dp"
+            android:text="유사한 부분이 많으며, 힘과 유연성, 반사신경, 그리고 공중에서의 평형감각 등이 고루 요구되는 스포츠입니다. " />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 세부종목 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="5dp"
+            android:text="남자 6종목\n&lt;개인전>\n- 스프링보드 1m\n- 스프링보트 3m\n- 플렛폼\n- 3m 싱크로나이즈 스프링보드\n- 플렛폼 싱크로나이즈\n- 단체\n\n여자 6종목\n&lt;개인전>\n- 스프링보드 1m\n- 스프링보트 3m\n- 플렛폼\n- 3m 싱크로나이즈 스프링보드\n- 플렛폼 싱크로나이즈\n- 단체" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기방식 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="5dp"
+            android:text="&lt; 개인경기 >\n- 개인경기는 스프링보드와 플랫폼 경기로 나눠지며, 스프링보드의 경우 1m와 3m 두 가지 종목으로 진행.각 경기는 남자 6번, 여자 5번의 다이빙으로 이뤄지는데 난이도와 관계없이 서로 다른 그룹의 종목으로 구성\n\n&lt; 팀 경기 >\n- 팀 경기는 싱크로나이즈 다이빙으로 3m스프링\n보드와 플랫폼 두 종목\n\n개인경기와 마찬가지로 남자 6번, 여자 5번의 다이빙으로 이뤄지는데, 남녀 모두 2번의 다이빙은 난이도 2.0으로 제한된 규정종목을 해야 하며 나머지(남자 4번, 여자 3번) 다이빙은 난이도에 제한이 없는 자유종목. 총 5개의 그룹으로 구성" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기유래 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView8"
+            android:layout_below="@+id/textView8"
+            android:layout_marginTop="5dp"
+            android:text="- 다이빙은 수영을 위해 물가에서 물로 뛰어드는 목적에서부터 시작되었으며, 이것이 뛰어들기만을 위한 스포츠로 발전하여 오늘날의 다이빙 경기에 이른 것입니다. 한편 근대 유럽에서 발전된 기계체조의 경기자들은 공중 묘기를 물위에서 익힘으로써 위험성을 덜고 한층 흥미가 있다는 사실을 발견하였습니다. 뛰어들기와 체조경기자의 공중묘기로 부터 발전돼 온 다이빙은 1893년 영국에서 뛰어들기 대회가 최초로 개최된 것을 시작으로 하여 경기화 되었습니다. 그 후 다이빙은 유럽에서 주로 독일과 스웨덴의 체조 경기자들에 의해 널리 보급되고 완성되었습니다. 즉, 체조 경기자들은 여름이면 해변가로 전지훈련을 떠나 연습에 임하였는데 이 때 그들은 물위에 높은 그네나 탑 또는 스프링보드를 설치해 놓고 안전하게 공중묘기를 연습하였습니다." />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="20dp"
+            android:text="&lt; 경기장정보 >"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView10"
+            android:layout_below="@+id/textView10"
+            android:layout_marginTop="5dp"
+            android:text="경기장\n- 남부대 신축수영장" />
+    </RelativeLayout>
+
+</ScrollView>
